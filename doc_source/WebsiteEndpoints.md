@@ -3,8 +3,8 @@
 When you configure your bucket as a static website, the website is available at the AWS Region\-specific website endpoint of the bucket\. Website endpoints are different from the endpoints where you send REST API requests\. For more information about the differences between the endpoints, see [Key Differences Between a Website Endpoint and a REST API Endpoint](#WebsiteRestEndpointDiff)\.
 
 Depending on your Region, your Amazon S3 website endpoints follows one of these two formats\.
-+ **s3\-website dash \(\-\) Region** ‐ `http://bucket-name.s3-website.Region.amazonaws.com`
-+ **s3\-website dot \(\.\) Region** ‐ `http://bucket-name.s3-website-Region.amazonaws.com`
++ **s3\-website dash \(\-\) Region** ‐ `http://bucket-name.s3-website-Region.amazonaws.com`
++ **s3\-website dot \(\.\) Region** ‐ `http://bucket-name.s3-website.Region.amazonaws.com`
 
 These URLs return the default index document that you configure for the website\. For a complete list of Amazon S3 website endpoints, see [Amazon S3 Website Endpoints](https://docs.aws.amazon.com/general/latest/gr/s3.html#s3_website_region_endpoints)\.
 
